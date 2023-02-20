@@ -32,13 +32,14 @@ function EvaluteStudent() {
     useEffect(() => {
         const callApi = async () => {
             const data = await studentStatisticalApi.getListStudentByPaging(1);
+            console.log(data);
             setStudentPaging10(mapData(data.data));
         };
         callApi();
     }, []);
     return (
         <div
-            className="EvaStudent container"
+            className="EvaStudent"
             style={{
                 padding: "24px 32px",
                 width: "100%",

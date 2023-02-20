@@ -8,10 +8,7 @@ import {
 } from "react-icons/fa";
 function StudentDetail() {
     return (
-        <div
-            className="StudentDetail container"
-            style={{ padding: "24px 32px" }}
-        >
+        <div className="StudentDetail" style={{ padding: "24px 32px" }}>
             <div className="detail-title">
                 <h3>Student Detail</h3>
             </div>

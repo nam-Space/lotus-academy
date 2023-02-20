@@ -4,7 +4,7 @@ import React from "react";
 
 const Home = () => {
     return (
-        <Layout className="container bg-white">
+        <Layout className="bg-white">
             <Header className=" d-flex items-center">
                 <h3 className="m-0">Bảng tin</h3>
             </Header>
